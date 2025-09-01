@@ -1,0 +1,36 @@
+Bug-ID: BUG001
+Title: Error message not displayed for empty username field
+
+Module: Login
+Severity: Minor
+Priority: Medium
+
+Environment:
+Browser: Google Chrome 127.0
+OS: Windows 10
+Application Version: v2.3.1
+
+Precondition:
+User is in login page.
+
+
+Steps to Reproduce:
+1. Go to the website login page.
+2. Leave the username field empty.
+3. Enter password field.
+4. click on login cta.
+
+Expected Result:
+User should get the error message for empty username field and cannot proceed further.
+
+Actual Result:
+1. The error message is not shown for the empty username field.  
+2. After clicking on on login it wont proceed further.
+
+Status: New
+
+Attachments:
+Screenshots and Videos
+
+Reported By: Bhoomika N
+Reported Date: 31-Aug-2025
