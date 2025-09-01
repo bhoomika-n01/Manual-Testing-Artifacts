@@ -1,0 +1,36 @@
+Bug-ID: BUG002
+Title: Checkout button not working on Payment Page
+
+Module: Checkout
+Severity: Critical
+Priority: High
+
+Environment:
+Browser: Google Chrome 127.0
+OS: Windows 10
+Application Version: v2.3.1
+
+Precondition:
+User is logged in.
+User has at least one item in the cart.
+
+Steps to Reproduce:
+1. Go to homepage.
+2. Add any product to the cart.
+3. Navigate to checkout page.
+4. Fill all mandatory fields.
+5. Click on “Proceed to Payment.”
+
+Expected Result:
+User should be redirected to the payment gateway page.
+
+Actual Result:
+Clicking on the “Proceed to Payment” button does nothing. No redirection happens.
+
+Status: New
+
+Attachments:
+Videos
+
+Reported By: Bhoomika N
+Reported Date: 31-Aug-2025
