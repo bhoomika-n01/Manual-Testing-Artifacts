@@ -1,0 +1,36 @@
+Bug-ID: BUG004
+Title: Notification count not updating after page refresh
+
+Module: Checkout
+Severity: Medium
+Priority: High
+
+Environment:
+Browser: Google Chrome 127.0
+OS: Windows 10
+Application Version: v2.3.1
+
+Precondition:
+User is logged in.
+Atleast 1 unread notification exists.
+
+Steps to Reproduce:
+1. login to the website.
+2. Perform action that generates a new notification.
+3. Check the notification bell -- count is updated.
+4. Refresh the page.
+5. Observe the notification count.
+
+Expected Result:
+Notification count should remain accurate and persist after page refresh.
+
+Actual Result:
+Notification count resets/does not update after page refresh.
+
+Status: Open
+
+Attachments:
+Videos
+
+Reported By: Bhoomika N
+Reported Date: 31-Aug-2025
