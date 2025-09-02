@@ -1,0 +1,32 @@
+Bug-ID: BUG003
+Title: User able to register with already existing email.
+
+Module: Registration
+Severity: Critical
+Priority: High
+
+Environment:
+Browser: Google Chrome 127.0
+OS: Windows 10
+Application Version: v2.3.1
+
+Steps to Reproduce:
+1. Go to Registration page of the website.
+2. Enter all the details.
+3. Enter the email which is already registered and observe.
+4. Click on Sign-up CTA.
+
+Expected Result:
+User should get an error message as "Email already exists".
+
+Actual Result:
+1. After entereing already existing email, error is not shown.
+2. The user can click Sign-up and successfully register with existing email.
+
+Status: New
+
+Attachments:
+Videos
+
+Reported By: Bhoomika N
+Reported Date: 31-Aug-2025
