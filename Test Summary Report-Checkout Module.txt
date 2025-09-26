@@ -1,0 +1,52 @@
+Test Summary Report - Checkout Module 
+
+Project Name: E-Commerce Web Application
+Module: Checkout
+Prepared By: Bhoomika N
+Date: 31-Aug-2025
+
+
+1. Objective:
+	To validate the Checkout Module including cart validation, address, payment, and order confirmation, ensuring end-to-end purchase flow works correctly.
+
+2. Scope:
+	> Functional testing of checkout flow (Cart → Address → Payment → Confirmation).
+	> Validation of payment modes (Credit Card, UPI, COD).
+	> Order summary and confirmation.
+
+3. Test Coverage:
+	Total testcases = 8
+	Executed = 8
+	Passed = 6
+	Failed = 1
+	Blocked = 1
+	Not Executed = 0
+
+4. Defect Summary:
+> BUG_201
+	* Title: COD option not available at checkout
+	* Severity: Major
+	* Priority: High
+	* Status: Closed
+
+>BUG_204
+	* Title: Payment gateway timeout not handled properly
+	* Severity: Critical
+	* Priority: High
+	* Status: Open
+
+5. Test Environment:
+	> Browser: Chrome 118, Firefox 116, Edge 120
+	> OS: Windows 10, Ubuntu 22.04
+	> Build Version: v2.0.0
+
+6. Key Observations:
+	> COD (Cash on Delivery) bug was fixed and re-tested 	successfully
+	> Payment gateway timeout still not handled (critical bug) → 	leads to incomplete orders.
+	> One test case blocked due to dependency on third-party 	payment gateway downtime.
+
+7. Conclusion:
+	> Overall Status: ❌ Partially Successful
+	> 6/8 Test Cases Passed.
+	> 1 Critical bug (Payment timeout) is still open.
+	> Recommendation: Do not release Checkout module to 	production until payment bug is resolved.
